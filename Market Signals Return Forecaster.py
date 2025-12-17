@@ -57,4 +57,5 @@ import matplotlib.pyplot as plt
 feat_importances = pd.Series(model.feature_importances_, index=X_train.columns)
 feat_importances.plot(kind='bar')
 plt.title('Feature Importances')
+
 plt.show()
